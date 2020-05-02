@@ -1,4 +1,4 @@
-This project tries out customizing the Spring Security OAuth2 JWT validator. 
+This project tries out [customizing the Spring Security OAuth2 JWT validator](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2resourceserver-jwt-validation-custom). 
 
 Specifically, it customizes
 - The choice of RS256 or HS256, where Spring Boot resource servers [by default only support RS256](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2resourceserver-jwt-decoder-algorithm)
